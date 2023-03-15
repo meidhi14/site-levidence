@@ -1,0 +1,28 @@
+.contenu {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenu img {
+    width: 50%;
+}
+
+
+@media screen and (max-width: 1400px) {
+
+    .contenu {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .contenu img {
+        width: 100%;
+    }
+
+    ul {
+        margin: 0;
+    }
+}

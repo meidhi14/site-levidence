@@ -1,0 +1,111 @@
+.contenu {
+    background-color: #426D49;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.texte {
+    width: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white; 
+    font-size: 1.7em;  
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.photo {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#photopresentation {
+    width: 100%;
+
+}
+
+.constru {
+    background-color: #426D49;
+    width: 717px;
+    margin: 0 auto;
+    padding-top: 50px;    
+}
+
+
+
+.textconstruction {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.conteneur1{
+    overflow: hidden;
+    max-width: 960px;
+    margin: 0px auto;
+    border-radius: 5%;
+}
+.d1{
+    width: 3840px;
+    height: 720px;
+    background-color: #EDEDED;
+    background-image: url("../restaurant-image/diapo.png");
+    background-size: contain;
+    animation: defilement1 25s linear infinite;
+}
+@keyframes defilement1{
+    0%{transform: translate(0,0);}
+    100%{transform: translate(-2880px,0);}
+}
+
+
+
+@media screen and (max-width: 1400px) {
+    .contenu {
+        display: block;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .photo, .texte {
+        margin: 0 auto;
+        width: 90%;
+        text-align: left;
+    }
+
+    p {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+    
+
+    .conteneur1{
+        overflow: hidden;
+        max-width: 320px;
+        margin: 0px auto;
+        border-radius: 5%;
+    }
+    .d1{
+        width: 1440px;
+        height: 240px;
+        background-color: #EDEDED;
+        background-image: url("../restaurant-image/diapo1.png");
+        background-size: contain;
+        animation: defilement1 25s linear infinite;
+    }
+    @keyframes defilement1{
+        0%{transform: translate(0,0);}
+        100%{transform: translate(-960px,0);}
+    }
+
+
+}

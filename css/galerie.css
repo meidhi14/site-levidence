@@ -1,0 +1,42 @@
+.contenu {
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    justify-content: center;
+}
+
+
+.photo {
+    margin: 0 auto;
+    max-width: 70%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+@media screen and (max-width: 1400px) {
+
+    .contenu {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .contenu img {
+        width: 100%;
+    }
+
+    ul {
+        margin: 0;
+    }
+
+    .photo1 {
+        margin-top: 20px;
+    }
+
+}
